@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("mantapstoragebot")
 	DB_CHANNEL = int(os.environ.get("-1001472034783"))
 	BOT_OWNER = int(os.environ.get("1290356065"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	DATABASE_URL = os.environ.get("https://cloud.mongodb.com/v2/609eb085545bcd03c86c3bea")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
@@ -22,7 +22,7 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [Files Store Bot](https://t.me/{mantapstoragebot})
 
 📝 **Language:** [Python3](https://www.python.org)
 
