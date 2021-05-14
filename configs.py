@@ -4,12 +4,12 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+	API_ID = int(os.environ.get("4672811"))
+	API_HASH = os.environ.get("4e66688f8ffef415af4f0c550e3b7f3d")
+	BOT_TOKEN = os.environ.get("1894112321:AAGYT1Y0izMTgL_fAqI2ZmhXVk4Kw8RPGIM")
+	BOT_USERNAME = os.environ.get("mantapstoragebot")
+	DB_CHANNEL = int(os.environ.get("-1001472034783"))
+	BOT_OWNER = int(os.environ.get("1290356065"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
