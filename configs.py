@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("mantapstoragebot")
 	DB_CHANNEL = int(os.environ.get("-1001472034783"))
 	BOT_OWNER = int(os.environ.get("1290356065"))
-	DATABASE_URL = os.environ.get("https://cloud.mongodb.com/v2/609eb085545bcd03c86c3bea")
+	DATABASE_URL = os.environ.get("mongodb+srv://mantapfiles:mantapvids@cluster01.uon8h.mongodb.net/test")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
