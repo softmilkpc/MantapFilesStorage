@@ -4,13 +4,13 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("4672811"))
-	API_HASH = os.environ.get("4e66688f8ffef415af4f0c550e3b7f3d")
-	BOT_TOKEN = os.environ.get("1894112321:AAGYT1Y0izMTgL_fAqI2ZmhXVk4Kw8RPGIM")
+	API_ID = int(os.environ.get(""))
+	API_HASH = os.environ.get("")
+	BOT_TOKEN = os.environ.get("")
 	BOT_USERNAME = os.environ.get("mantapstoragebot")
 	DB_CHANNEL = int(os.environ.get("-1001472034783"))
 	BOT_OWNER = int(os.environ.get("1290356065"))
-	DATABASE_URL = os.environ.get("mongodb+srv://mantapfiles:mantapvids@cluster01.uon8h.mongodb.net/test")
+	DATABASE_URL = os.environ.get("")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
@@ -34,7 +34,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👥 **Support Group:** [Linux Repositories](https://t.me/linux_repo)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+📢 **Updates Channel:** [Discovery Projects](https://t.me/mantapvids)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @AbirHasan2005
